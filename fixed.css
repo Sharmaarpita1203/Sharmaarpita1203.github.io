@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    .container
+    {
+    width: 1800px;
+    height: 780px;
+    margin: 0 auto;
+    }
+    .container .row1, .row2
+    {
+    border:.5em hwb(126 13% 11%) dashed;
+    margin-bottom: 1em;
+    margin-top: .25em;
+    overflow-y: hidden;
+    }
+    .container .row1 .col1
+    {
+    width: 950px;
+    float: left;
+    border: double;
+    height: 350px;
+    overflow-y: auto;
+    }
+    .container .row1 .col2
+    {
+    width: 800px;;
+    float: right;
+    border: double;
+    height: 350px;
+    overflow-y: auto;
+    }
+    .container .row2 .col1
+    {
+    width: 950px;
+    float: right;
+    border: double;
+    height: 350px;
+    overflow-y: auto;
+    }
+    .container .row2 .col2
+    {
+    width: 800px;
+    float: left;
+    border: double;
+    height: 350px;
+    overflow-y: auto;
+    }
